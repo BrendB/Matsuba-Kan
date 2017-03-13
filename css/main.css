@@ -10,9 +10,16 @@
 .mobile {
     display: none;
 }
-
+#container-outline {
+    position: relative;
+    min-height: 100%;
+}
 .container {
-    width: 1200px;
+    max-width: 1200px;
+}
+#outline-box {
+   padding-bottom: 100px;
+    clear: both;
 }
 
 .row {
@@ -82,33 +89,18 @@ header {
 
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {
-    width: 100%;
+    width: 70%;
     margin: auto;
 }
-
-.carousel-control.right {
-    margin-right: 4em;
-}
-
-.carousel-control.left {
-    margin-left: 4em;
-}
-
-#myCarousel {
-    width: calc(100% - 222px);
-    height: 420px;
-
-}
-
 
 /* ==========================================================================
    FOOTER
    ========================================================================== */
 footer {
-    position: relative;
-    height: auto;
+    position: absolute;
     width: 100%;
     clear: both;
+    bottom: 0;
     padding-top: 20px;
     background-color: #999999;
     color: black;
