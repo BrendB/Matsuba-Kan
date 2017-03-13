@@ -1,0 +1,62 @@
+@media (max-width: 768px) {
+    .desktop {
+        display: none;
+    }
+
+    .mobile {
+        display: block;
+    }
+
+    footer {
+    }
+
+    #page-content-wrapper {
+    }
+
+    #header_icon{
+        max-height: none;
+        height: auto;
+        width: 100%;
+        max-width: none;
+        padding: 10px 7%;
+    }
+
+    .phone_info {
+        margin-bottom: -10px;
+    }
+
+    .phone_big {
+        text-align: right;
+        font-size: 100%;
+    }
+    .phone_small{
+        text-align: right;
+        font-size: 50%;
+    }
+
+    .footer_logo {
+        width: 80%;
+        height: auto;
+        margin: 5px auto;
+    }
+
+
+    footer li {
+        display: block;
+        padding: 3px;
+        text-align: left;
+    }
+     footer img, footer span {
+         margin: auto;
+         float: none;
+         padding: 0;
+     }
+     footer .phone_small {
+         margin-top: 20px;
+     }
+     footer .phone_info {
+         padding-right: 40px;
+         padding-bottom: 40px;
+     }
+
+}

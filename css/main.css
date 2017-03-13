@@ -1,0 +1,146 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+.desktop {
+    display: block;
+}
+
+.mobile {
+    display: none;
+}
+
+.container {
+    width: 1200px;
+}
+
+.row {
+    margin: 0;
+}
+
+.menu_text {
+    display: inline-block;
+}
+
+.item {
+    margin: auto;
+}
+
+ul {
+    list-style: none;
+
+}
+
+/* ==========================================================================
+   HEADER
+   ========================================================================== */
+header {
+    display: inline-block;
+    border-bottom: 3px solid #339966;
+    width: 100%;
+    margin-bottom: 1em;
+}
+
+#header_icon {
+    margin: 10px;
+    width: auto;
+    max-width: 58%;
+    height: auto;
+    max-height: 60px;
+}
+
+.phone_info{
+    display: inline-block;
+    float: right;
+    text-align: right;
+    padding: 10px 10px;
+}
+
+.phone_small {
+    display: block;
+    font-size: 9pt;
+}
+
+.phone_big {
+    display: block;
+    font-size: 17pt;
+    line-height: 25px;
+}
+
+#facebook_icon {
+    float: right;
+    position: relative;
+    width: 10%;
+    max-width: 100px;
+    min-width: 70px;
+    margin-top: 10px;
+}
+/* ==========================================================================
+   CAROUSEL
+   ========================================================================== */
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+    width: 70%;
+    margin: auto;
+}
+
+/* ==========================================================================
+   FOOTER
+   ========================================================================== */
+footer {
+    position: relative;
+    height: auto;
+    width: 100%;
+    clear: both;
+    padding-top: 20px;
+    background-color: #999999;
+    color: black;
+}
+
+footer ul {
+    display: inline-block;
+    text-align: center;
+}
+
+footer li {
+     display: inline-block;
+     padding: 10px 6px;
+     font-size: 9pt;
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+}
+
+.modal-footer {
+    width: 100%;
+}
+
+.footer_logo {
+    height: 50px;
+    margin: auto;
+}
+
+/*To keep the footer on the bottom*/
+html, body {
+    height: 100%;
+}
+
+#wrapper {
+    min-height: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
