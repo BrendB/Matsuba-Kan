@@ -82,9 +82,24 @@ header {
 
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {
-    width: 70%;
+    width: 100%;
     margin: auto;
 }
+
+.carousel-control.right {
+    margin-right: 4em;
+}
+
+.carousel-control.left {
+    margin-left: 4em;
+}
+
+#myCarousel {
+    width: calc(100% - 222px);
+    height: 420px;
+
+}
+
 
 /* ==========================================================================
    FOOTER
