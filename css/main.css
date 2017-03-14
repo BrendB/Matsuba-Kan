@@ -11,8 +11,14 @@
     display: none;
 }
 
-.container {
+body {
     width: 1200px;
+    position: relative;
+    margin: 1em auto;
+}
+
+#wrapper {
+    position: relative;
 }
 
 .row {
@@ -30,6 +36,21 @@
 ul {
     list-style: none;
 
+}
+
+#page-content-wrapper {
+    position: absolute;
+    padding: 15px 15px 15px 15px;
+}
+
+
+/* ==========================================================================
+   HOME PAGE
+   ========================================================================== */
+#content {
+    width: 1200px;
+    position: relative;
+    margin: auto;
 }
 
 /* ==========================================================================
@@ -82,21 +103,22 @@ header {
 
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {
-    width: 100%;
+    max-height: 480px;
     margin: auto;
 }
 
 .carousel-control.right {
-    margin-right: 4em;
+    margin-right: 0;
 }
 
 .carousel-control.left {
-    margin-left: 4em;
+    margin-left: 0;
 }
 
 #myCarousel {
-    width: calc(100% - 222px);
-    height: 420px;
+    width: auto;
+    max-height: 480px;
+    margin-left: 70px;
 
 }
 
@@ -113,6 +135,11 @@ footer {
     padding-top: 20px;
     background-color: #999999;
     color: black;
+}
+
+footer.row {
+    margin-top: 10em;
+
 }
 
 footer ul {

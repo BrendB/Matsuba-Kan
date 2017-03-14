@@ -3,17 +3,10 @@
     z-index:1;
     position: absolute;
     right:0;
-    width: 40px;
-    height: 30em;
     overflow-y: hidden;
     background-color: transparent;
     opacity: 0.9;
     padding-top: 15px;
-}
-
-#page-content-wrapper {
-    position: absolute;
-    padding: 15px 200px 15px 15px;
 }
 
 #wrapper.menuDisplayed #sidebar-wrapper {
@@ -28,10 +21,12 @@
 .sidebar-nav {
     padding: 0;
     list-style: none;
+    margin-right: 70px;
 }
 
 .sidebar-nav li {
-    line-height: 5em;
+    line-height: 80px;
+    width: 300px;
 }
 
 .sidebar-nav li:nth-child(even) {
@@ -54,12 +49,11 @@
 }
 
 .menu_icon {
-    width:40px;
-    height: 50px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 5px;
+    width: 60px;
+    height: auto;
+    padding: 10px;
     display: inline-block;
+    margin-left: 15px;
 }
 
 .menu_text {

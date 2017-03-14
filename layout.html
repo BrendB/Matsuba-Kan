@@ -1,0 +1,46 @@
+<!doctype html>
+    <head>
+        <meta charset="utf-8">
+        <title>Matsuba-Kan</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!--Web Import of bootstrap js + CSS and jQuery-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+              integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+              crossorigin="anonymous">
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+                integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+                crossorigin="anonymous"></script>
+
+        <!--Local Import of bootstrap js + CSS and jQuery-->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+        <script src="js/vendor/bootstrap.js"></script>
+        <script src="js/jquery-3.1.1.js"></script>
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/sidebar.css">
+        <link rel="stylesheet" href="css/mobile.css">
+    </head>
+
+
+    <body>
+        <header id="myHeader">
+            <img id=header_icon src="img/icon/header_logo.png">
+            <img src="img/icon/facebook_icon.png" id="facebook_icon" alt="Facebook">
+            <div class="phone_info ">
+                <span class="phone_small">お電話でのご予約・お問い合わせ</span>
+                <span class="phone_big">Tel. 0183-47-5019</span>
+            </div>
+        </header>
+        <script>
+            <!--Menu Toggle-->
+            $("#menu-toggle").click(function(e){
+                e.preventDefault();
+                $("#wrapper").toggleClass("menuDisplayed");
+            });
+        </script>
+    </body>
+
+</html>
