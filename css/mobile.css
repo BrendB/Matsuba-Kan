@@ -10,7 +10,10 @@
     footer {
     }
 
-    #page-content-wrapper {
+    #page-content-wrapper h2{
+        background-image: url("../img/home01_title.png");
+        background-position: bottom center;
+        background-repeat: no-repeat;
     }
 
     #header_icon{

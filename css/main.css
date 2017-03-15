@@ -44,6 +44,8 @@ ul {
 }
 
 
+
+
 /* ==========================================================================
    HOME PAGE
    ========================================================================== */
@@ -53,6 +55,24 @@ ul {
     margin: auto;
 }
 
+#title_div {
+    background-image: url("../img/home/home01_title.png");
+    background-position: 0;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 50px;
+}
+
+.block_title {
+    line-height: 40px;
+    text-align: center;
+    margin: 0;
+    padding-top: 10px;
+}
+
+h2 a {
+    margin-bottom: -15px;
+}
 /* ==========================================================================
    HEADER
    ========================================================================== */
