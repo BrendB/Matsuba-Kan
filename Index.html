@@ -2,6 +2,17 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+
+    <!--Web Import of bootstrap js + CSS and jQuery-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+          crossorigin="anonymous">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+            integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+            crossorigin="anonymous"></script>
+
+
     <!--Local Import of bootstrap js + CSS and jQuery-->
     <script src="js/jquery-3.1.1.js"></script>
     <script src="js/vendor/bootstrap.js"></script>
@@ -14,7 +25,9 @@
 
     <script>
         $(function(){
-        $("#myFooter").load("footer.html");
+            $("#myHeader").load("header.html");
+        //    $("#myMenuCarousel").load("carousel.html");
+            $("#myFooter").load("footer.html");
         });
     </script>
 
@@ -23,60 +36,67 @@
 <body class="container">
     <header id="myHeader"></header>
     <div id="myMenuCarousel"></div>
-
     <div id="home_content content">
         <div class="row">
             <div class="col-sm-6" id="home01_left">
-                <div id="title_div"><h2 class="block_title">松葉館</h2></div>
+                <div id="title_div" class="title_background"><h2 class="block_title">松葉館</h2></div>
                 <h5>Matsuba-kan</h5>
                 <p>松葉館では、栗駒山で採れた旬の山菜や地元の食材をお部屋で味
                     わうことができます。全8室から小安峡の大自然がながめられる静か
                     な宿で、露天風呂に入って四季折々の温泉を満喫してください。
                     詳</p>
-                <div>
-                    <p>〒012-0183
-                        秋田県湯沢市皆瀬字湯元５０－１
-                        Tel. 0183-47-5019
-                        Fax. 0183-42-5021</p>
+                <div id="home01_green">
+                    <div id="home01_green_text">
+                        <p>〒012-0183</p>
+                        <p> 秋田県湯沢市皆瀬字湯元５０－１</p>
+                        <p> Tel. 0183-47-5019</p>
+                        <p> Fax. 0183-42-5021</p>
+                    </div>
                     <button>MAP</button>
                 </div>
             </div>
             <div class="col-sm-6">
-                <img src="img/home/home01.jpg" alt="Matsuba-kan">
+                <img class="img_block" src="img/home/home01.jpg" alt="Matsuba-kan">
             </div>
         </div>
         <div class="row">
             <div class="col-sm-6">
-                <img src="img/home/home02.jpg" alt="Onsen">
+                <img class="img_block" src="img/home/home02.jpg" alt="Onsen">
             </div>
             <div class="col-sm-6">
-                <img src="img/home/home02_onsen_logo.png">
-                <p>内湯、露天風呂があります。</p>
-                <button>詳細はこちら</button>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-sm-6">
-                <img src="img/home/home03_room_logo.png">
-                <p>全室から小安峡の大自然がながめられます。</p>
-                <p> 大広間は最大50名様までご利用できます。</p>
-                <p> お部屋、大広間とも日帰りでご利用いただけます。</p>
-                <button>詳細はこちら</button>
-            </div>
-            <div class="col-sm-6">
-                <img src="img/home/home03.jpg">
+                <img class="logo_block" src="img/home/home02_onsen_logo.png">
+                <div class="text_block">
+                    <p>内湯、露天風呂があります。</p>
+                     <button>詳細はこちら</button>
+                </div>
             </div>
         </div>
         <div class="row">
             <div class="col-sm-6">
-                <img src="img/home/home04.jpg">
+                <img class="logo_block" src="img/home/home03_room_logo.png">
+                <div class="text_block">
+                    <p>全室から小安峡の大自然がながめられます。</p>
+                    <p> 大広間は最大50名様までご利用できます。</p>
+                    <p> お部屋、大広間とも日帰りでご利用いただけます。</p>
+                    <button>詳細はこちら</button>
+                </div>
             </div>
             <div class="col-sm-6">
-                <img src="img/home/room04_food_logo.png">
-                <p>栗駒山で採れた旬の山菜や地元の食材をお部屋で味わう
-                    ことができます</p>
-                <p>当館にある生簀でとれた新鮮なイワナを召し上がれます。</p>
-                <button>詳細はこちら</button>
+                <img class="img_block" src="img/home/home03.jpg">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-6">
+                <img class="img_block" src="img/home/home04.jpg">
+            </div>
+            <div class="col-sm-6">
+                <img class="logo_block" src="img/home/room04_food_logo.png">
+                <div class="text_block">
+                    <p>栗駒山で採れた旬の山菜や地元の食材をお部屋で味わう
+                        ことができます</p>
+                    <p>当館にある生簀でとれた新鮮なイワナを召し上がれます。</p>
+                    <button>詳細はこちら</button>
+                </div>
             </div>
         </div>
     </div>
