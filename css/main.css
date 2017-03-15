@@ -234,17 +234,17 @@ header {
 }
 
 .carousel-control.right {
-    margin-right: 0;
+    margin-right: 18px;
+    display: none;
 }
 
 .carousel-control.left {
-    margin-left: 0;
+    margin-left: 18px;
+    display: none;
 }
 
 #myCarousel {
     width: auto;
-    max-height: 480px;
-    margin-left: 70px;
 
 }
 
