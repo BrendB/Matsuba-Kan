@@ -23,8 +23,13 @@
         display: block;
     }
 
-    footer {
+    .menu_text {
     }
+
+    .sidebar-nav li {
+        width: auto;
+    }
+
 
     #page-content-wrapper h2{
         background-image: url("../img/home/home01_title.png");

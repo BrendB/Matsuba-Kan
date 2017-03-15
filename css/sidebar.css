@@ -54,9 +54,10 @@
 }
 
 .menu_text {
-    display: none;
     text-align: center;
 }
+
+#myCarousel li
 
 .carousel-control.left {
     background-image: none;
