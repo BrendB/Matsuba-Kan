@@ -3,20 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <!--Local Import of bootstrap js + CSS and jQuery-->
+    <script src="js/jquery-3.1.1.js"></script>
+    <script src="js/vendor/bootstrap.js"></script>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/bootstrap-theme.min.css">
-    <script src="js/vendor/bootstrap.js"></script>
-    <script src="js/jquery-3.1.1.js"></script>
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/sidebar.css">
     <link rel="stylesheet" href="css/mobile.css">
+
+
     <script>
         $(function(){
-        $("#myHeader").load("layout.html");
-        $("#myMenuCarousel").load("carousel.html");
         $("#myFooter").load("footer.html");
         });
     </script>
+
+
 </head>
 <body class="container">
     <header id="myHeader"></header>
@@ -24,8 +26,8 @@
 
     <div id="home_content content">
         <div class="row">
-            <div class="col-sm-6">
-                <h2>松葉館</h2>
+            <div class="col-sm-6" id="home01_left">
+                <div id="title_div"><h2 class="block_title">松葉館</h2></div>
                 <h5>Matsuba-kan</h5>
                 <p>松葉館では、栗駒山で採れた旬の山菜や地元の食材をお部屋で味
                     わうことができます。全8室から小安峡の大自然がながめられる静か
@@ -39,7 +41,7 @@
                     <button>MAP</button>
                 </div>
             </div>
-            <div class="col-sm-12">
+            <div class="col-sm-6">
                 <img src="img/home/home01.jpg" alt="Matsuba-kan">
             </div>
         </div>
@@ -70,7 +72,7 @@
                 <img src="img/home/home04.jpg">
             </div>
             <div class="col-sm-6">
-                <img src="img/home/home04_food_logo.png">
+                <img src="img/home/room04_food_logo.png">
                 <p>栗駒山で採れた旬の山菜や地元の食材をお部屋で味わう
                     ことができます</p>
                 <p>当館にある生簀でとれた新鮮なイワナを召し上がれます。</p>
