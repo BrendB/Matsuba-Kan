@@ -136,6 +136,10 @@ ul {
     margin: 1em 2em;
 }
 
+.text_block p {
+    margin: 5px 2em;
+}
+
 .button_block {
     width: 50%;
     margin: 2em auto;
