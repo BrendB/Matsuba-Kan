@@ -12,10 +12,6 @@
 }
 
 body {
-<<<<<<< HEAD
-=======
-    max-width: 1200px;
->>>>>>> 6871c975b9f07667448e2f598e6909c2df91edfd
     position: relative;
     margin: 1em auto;
 }
@@ -269,14 +265,80 @@ html, body {
     min-height: 100%;
 }
 
+/* ==========================================================================
+   onsen page
+   ========================================================================== */
 
+.onsen-title {
+    background-image: url("../img/onsen-line.png");
+    background-repeat: no-repeat;
+    height: 0;
+    padding-top: 10%;
+    background-size: contain;
+}
+.room-title {
+    background-image: url("../img/room-line.png");
+    background-repeat: no-repeat;
+    height: 0;
+    padding-top: 10%;
+    background-size: contain;
+}
+.food-title {
+    background-image: url("../img/food-line.png");
+    background-repeat: no-repeat;
+    height: 0;
+    padding-top: 10%;
+    background-size: contain;
+}
+.block_title02 {
+    font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+    font-size: 30px;
+    text-align: center;
+    font-weight: 600;
+    margin-top: -100px;
+}
 
-
-
-
-
-
-
-
+.block_title-sb {
+    font-family: Century Gothic;
+    font-size: 12px;
+    text-align: center;
+    padding-top: 5px;
+}
+.descriprion-page {
+    text-align: center;
+    font-size: 15px;
+    line-height: 2.5;
+    margin-top: -20px;
+}
+.descriprion-onsen {
+    text-align: center;
+    font-size: 13px;
+    padding-top: 7px;
+}
+.img-onsen {
+    width: 90%;
+    margin: 0 auto;
+}
+.img-onsen-in {
+    width: 100%;
+    padding: 10px 0 10px 0;
+}
+.cv-button {
+    width: 30%;
+    margin: 0 auto;
+}
+.cv-button-in {
+    width: 100%;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    padding: 15px;
+    border: none;
+    background-color: #228473;
+}
+.cv-button-in:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
 
 
