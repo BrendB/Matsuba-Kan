@@ -82,7 +82,7 @@
 
      }
     #wrapper.menuDisplayed .menu_text {
-        display: none;
+    
     }
 
     .menu_icon {
@@ -109,4 +109,7 @@
     #home01_green, #home01_left p {
         width: auto;
     }
+    .cv-button {
+    width: 70%; 
+}
 }

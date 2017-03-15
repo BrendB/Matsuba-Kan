@@ -52,7 +52,7 @@ button {
    HOME PAGE
    ========================================================================== */
 .content {
-    width: 1200px;
+ /*   width: 1200px;*/
     position: relative;
     margin: auto;
 }
@@ -81,17 +81,18 @@ h5 {
 }
 
 #home01_left p {
-    width: 70%;
-    line-height: 30px;
+    width: 75%;
+    line-height: 2.5;
     margin: 1em auto;
-    font-size: 14pt;
+    font-size: 15px;
 }
 
 #home01_green {
-    background-color: RGBa(34, 132, 115, 0.5);
-    width: 70%;
+    background-color: RGBa(34, 132, 115, 0.2);
+    width: 80%;
     margin: 1em auto;
     padding: 10px;
+    position: relative;
 }
 
 #home01_green p {
@@ -102,14 +103,22 @@ h5 {
 
 #home01_green_text {
    display: inline-block;
+   width: 100%;
+padding: 15px;
 }
-
+#home01_green_text p {
+    line-height: 1.5;
+}
 #home01_green button{
     display: inline-block;
     vertical-align: top;
     margin-top: 2em;
     border: none;
     border-radius: 5px;
+    position: absolute;
+    top: 21px;
+    left: 230px;
+    color: #fff;
 }
 .green {
     background-color: #228473;
@@ -145,22 +154,26 @@ h5 {
     display: inline-block;
     text-align: center;
     margin:2em 0 auto 0;
-    width: 60%;
+    width: 65%;
 }
 
 .text_block p {
     margin: auto;
     line-height: 30px;
-    font-size: 14pt;
+    font-size: 15px;
 }
 
 .button_block {
     display: block;
-    width: 40%;
+    width: 60%;
     min-width: 100px;
-    height: 2.5em;
     margin: 20% auto;
     color: white;
+    padding: 15px;
+    font-size: 15px;
+}
+.button_block:hover {
+    opacity: 0.8;
 }
 
 /* ==========================================================================
@@ -185,7 +198,7 @@ header {
     display: inline-block;
     float: right;
     text-align: right;
-    padding: 10px 10px;
+    padding: 0px 20px 20px 20px;
 }
 
 .phone_small {
@@ -206,6 +219,9 @@ header {
     max-width: 100px;
     min-width: 70px;
     margin-top: 10px;
+}
+#facebook_icon:hover {
+    opacity: 0.8;
 }
 /* ==========================================================================
    CAROUSEL
@@ -273,6 +289,7 @@ footer a {
 .footer_logo {
     height: 50px;
     margin: auto;
+    margin-top: -10px;
 }
 
 /*To keep the footer on the bottom*/
@@ -359,5 +376,18 @@ html, body {
     opacity: 0.8;
     cursor: pointer;
 }
-
-
+#contact-table tr td{
+    padding: 30px;
+}
+#sm-text {
+    font-size: 12px;
+}
+.jaran-bt {
+    width: 100%;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    padding: 15px;
+    border: none;
+    background-color: #228473;
+}
