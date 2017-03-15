@@ -1,16 +1,14 @@
 
 #sidebar-wrapper {
     z-index:1;
-    position: absolute;
-    right:0;
+    padding: 0;
     overflow-y: hidden;
     background-color: transparent;
     opacity: 0.9;
-    padding-top: 15px;
+    padding-top: 0px;
 }
 
 #wrapper.menuDisplayed #sidebar-wrapper {
-    width: auto;
 }
 
 
@@ -21,12 +19,11 @@
 .sidebar-nav {
     padding: 0;
     list-style: none;
-    margin-right: 70px;
 }
 
 .sidebar-nav li {
     line-height: 80px;
-    width: 300px;
+    width: 100%;
 }
 
 .sidebar-nav li:nth-child(even) {
@@ -59,4 +56,11 @@
 .menu_text {
     display: none;
     text-align: center;
+}
+
+.carousel-control.left {
+    background-image: none;
+}
+.carousel-control.right {
+    background-image: none;
 }
