@@ -2,12 +2,18 @@
 .sidebar-nav li {
     line-height: 65px;
    }
+.block_title02 {
+    margin-top: -90px;
+}
 @media (max-width: 991px) {
 .menu_icon {
     width: 51px;
 }
 .sidebar-nav li a {
     padding: 0;
+}
+.block_title02 {
+    margin-top: -80px;
 }
 }
 
@@ -89,4 +95,18 @@
     .sidebar-nav li {
     line-height: 0; 
     }
+    .cv-button {
+    width: 90%;
+    }
+    .block_title02 {
+    margin-top: -80px;
+}
+.descriprion-page {
+    margin-top: 0;
+}
+}
+@media (max-width: 480px) {
+    .block_title02 {
+    margin-top: -90px;
+}
 }
