@@ -1,26 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-</head>
-<body>
-<div id="wrapper" class="menuDisplayed">
-    <!------------------SIDEBAR-------------------->
-    <div id="sidebar-wrapper">
-        <ul class="sidebar-nav">
-            <li><img class="menu_icon" src="img/icon/palm_tree_icon.png" alt="Palm Tree"> <a class="menu_text" href="@">ホーム</a> </li>
-            <li><img class="menu_icon"  src="img/icon/onsen_icon.png" alt="Onsen"><a class="menu_text" href="@">お風呂のご案内</a> </li>
-            <li><img class="menu_icon" src="img/icon/futon_icon.png" alt="Room"><a class="menu_text" href="@">お料理のご案内</a> </li>
-            <li><img class="menu_icon"  src="img/icon/food_icon.png" alt="Food"><a class="menu_text" href="@">お部屋のご案内</a> </li>
-            <li><img class="menu_icon"  src="img/icon/price_icon.png" alt="Price"><a class="menu_text" href="@">料金のご案内</a> </li>
-            <li><img class="menu_icon"  src="img/icon/access_icon.png" alt="Location"><a class="menu_text" href="@">アクセス</a> </li>
-        </ul>
-    </div>
+<div id="wrapper" class="menuDisplayed row">
     <!------------------CONTENT-------------------->
-    <div id="page-content-wrapper">
+        <div id="page-content-wrapper" class="col-sm-8 col-xs-10">
         <!-------------------CAROUSEL--------------------->
-        <div class="container-fluid">
-            <div id="myCarousel" class="carousel slide" data-ride="carousel">
                 <!-- Indicators -->
                 <ol class="carousel-indicators">
                     <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -55,9 +36,17 @@
                     <span class="sr-only">Next</span>
                 </a>
             </div>
+     <!------------------SIDEBAR-------------------->
+        <div id="sidebar-wrapper" class="col-sm-4 col-xs-2">
+            <ul class="sidebar-nav">
+                <li><img class="menu_icon" src="img/icon/palm_tree_icon.png" alt="Palm Tree"> <a class="menu_text" href="@">ホーム</a> </li>
+                <li><img class="menu_icon"  src="img/icon/onsen_icon.png" alt="Onsen"><a class="menu_text" href="@">お風呂のご案内</a> </li>
+                <li><img class="menu_icon" src="img/icon/futon_icon.png" alt="Room"><a class="menu_text" href="@">お料理のご案内</a> </li>
+                <li><img class="menu_icon"  src="img/icon/food_icon.png" alt="Food"><a class="menu_text" href="@">お部屋のご案内</a> </li>
+                <li><img class="menu_icon"  src="img/icon/price_icon.png" alt="Price"><a class="menu_text" href="@">料金のご案内</a> </li>
+                <li><img class="menu_icon"  src="img/icon/access_icon.png" alt="Location"><a class="menu_text" href="@">アクセス</a> </li>
+            </ul>
         </div>
-        <!-------------------END CAROUSEL--------------------->
-    </div>
 </div>
-</body>
-</html>
+        <!-------------------END CAROUSEL--------------------->
+   

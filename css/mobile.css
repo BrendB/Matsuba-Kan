@@ -1,3 +1,16 @@
+@media (max-width: 1199px) {
+.sidebar-nav li {
+    line-height: 65px;
+   }
+@media (max-width: 991px) {
+.menu_icon {
+    width: 51px;
+}
+.sidebar-nav li a {
+    padding: 0;
+}
+}
+
 @media (max-width: 768px) {
     .desktop {
         display: none;
@@ -61,5 +74,19 @@
          padding-right: 40px;
          padding-bottom: 40px;
      }
-
+     #page-content-wrapper {
+    padding: 0;
+    }
+    #wrapper.menuDisplayed .menu_text {
+        display: none;
+    }
+    .menu_icon {
+        margin-left: 0;
+    }
+    #sidebar-wrapper {
+        padding:0;
+    }
+    .sidebar-nav li {
+    line-height: 0; 
+    }
 }
