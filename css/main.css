@@ -12,7 +12,10 @@
 }
 
 body {
+<<<<<<< HEAD
+=======
     max-width: 1200px;
+>>>>>>> 6871c975b9f07667448e2f598e6909c2df91edfd
     position: relative;
     margin: 1em auto;
 }
@@ -39,8 +42,7 @@ ul {
 }
 
 #page-content-wrapper {
-    position: absolute;
-    padding: 15px 15px 15px 15px;
+    padding: 0;
 }
 
 
@@ -231,8 +233,6 @@ footer {
 }
 
 footer.row {
-    margin-top: 10em;
-
 }
 
 footer ul {
