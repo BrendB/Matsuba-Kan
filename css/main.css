@@ -45,6 +45,12 @@ button {
     border: none;
 }
 
+.go-back-link {
+    text-align: right;
+    margin-bottom: 1em;
+    margin-top: 2em;
+}
+
 
 
 
@@ -146,6 +152,7 @@ padding: 15px;
     display: inline-block;
     max-width: 25%;
     height: auto;
+    float: left;
     max-height: 300px;
     margin-top: 3em;
     margin-left: 2em;
@@ -245,7 +252,6 @@ header {
 
 #myCarousel {
     width: auto;
-
 }
 
 
@@ -299,6 +305,15 @@ html, body {
 
 #wrapper {
     min-height: 100%;
+}
+ .phone_big a{
+     text-decoration: none;
+     color: black;
+ }
+
+.phone_big a:hover{
+    text-decoration: none;
+    color: black;
 }
 
 /* ==========================================================================

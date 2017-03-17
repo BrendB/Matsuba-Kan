@@ -1,3 +1,6 @@
+<script src="js/jquery.bcSwipe.min.js"></script>
+
+
 <div id="wrapper" class="row">
     <!------------------CONTENT-------------------->
         <div id="page-content-wrapper" class="col-sm-8 col-xs-12">
@@ -9,20 +12,15 @@
                     <li data-target="#myCarousel" data-slide-to="1"></li>
                     <li data-target="#myCarousel" data-slide-to="2"></li>
                     <li data-target="#myCarousel" data-slide-to="3"></li>
-                    <li data-target="#myCarousel" data-slide-to="4"></li>
-                    <li data-target="#myCarousel" data-slide-to="5"></li>
                 </ol>
 
                 <!-- Wrapper for slides -->
                 <div class="carousel-inner" role="listbox">
                     <div class="item active">
-                        <img src="img/top-img01.jpg">
+                        <img src="img/top-img03.jpg">
                     </div>
                     <div class="item">
                         <img src="img/top-img02.jpg">
-                    </div>
-                    <div class="item">
-                        <img src="img/top-img03.jpg">
                     </div>
                     <div class="item">
                         <img src="img/top-img04.jpg">
@@ -58,3 +56,10 @@
         </div>
         <!---------------END SIDEBAR-------------------->
 </div>
+
+<script>
+    $('.carousel').bcSwipe({ threshold: 40 });
+    $('.carousel').carousel({
+        interval: 3000
+    })
+</script>
